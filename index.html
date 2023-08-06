@@ -1,247 +1,139 @@
-<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Personal portfolio</title>
+    <title>website</title>
     <link rel="stylesheet" href="style.css" />
-    <script src="https://kit.fontawesome.com/c947b9242a.js" crossorigin="anonymous"></script>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
   </head>
+
   <body>
-    <div id="header">
-      <div class="container">
-        <nav>
-          <img src="images/logo.jpg" class="logo" />
-          <ul id="sidemenu">
-            <li><a href="#header">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#portfolio">portfolio</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <i class="fa-sharp fa-regular fa-circle-xmark" onclick="closemenu()"></i>
-          </ul>
-          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
-        </nav>
-        <div class="header-text">
-          <p>Front End Developer</p>
-          <h1>
-            I'm<span> Koyaja</span> Bright<br />
-            From GHANA
-          </h1>
-        </div>
-      </div>
-    </div>
-    <!-- About  -->
-    <div id="about">
-      <div class="container">
-        <div class="row">
-          <div class="about-col-1">
-            <img src="Images/user.jpg" />
-          </div>
-          <div class="about-col-2">
-            <h1 class="sub-tittle">About Me</h1>
-            <p>
-              I'have a passion and dream of<br />
-              becoming software engineer one<br />
-              day, so help me God.
-            </p>
+    <header class="header">
+      <nav class="navbar">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+      </nav>
 
-            <div class="tab-tittles">
-              <p class="tab-links active-link" onclick="opentab('skiils')">
-                Skills
-              </p>
-              <p class="tab-links" onclick="opentab('experience')">Experience</p>
-              <p class="tab-links" onclick="opentab('education')">Education</p>
-            </div>
-            <div class="tab-contents active-tab" id="skills">
-              <ul>
-                <li>
-                  <span>2022-Current</span><br />Got adimmision at STU to study
-                  ICT.
-                </li>
-                <li>
-                  <span>February-December</span><br />Enroll in online course on
-                  software engineering at ALX SE.
-                </li>
-                <li>
-                  </div>
-                  <div class="tab-contents" id="experience">
-                  <span>Currently</span><br />working hard to become an expert
-                  in web development by<br />
-                  taking online Tutorial from freecampcode and other learning
-                  materials.
-                </li>
-              </ul>
-            </div>
-            <div class="tab-contents" id="education">
-              <ul>
-                <li>
-                  <span>Student at STU</span><br />Pursuing my first Degree at
-                  STU.
-                </li>
-                <li>
-                  <span>Student at ALX SE</span><br />learning software
-                  engineering.
-                </li>
-                <li>
-                  <span>Online Tutorial</span><br />Engage myself everyday
-                  praticing coding.<br />
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- services -->
-    <div id="services">
-      <div class="container">
-        <h1 class="sub-tittle">My Services</h1>
-        <div class="services-list">
-          <div>
-            <i class="fa-solid fa-code"></i>
-            <h2>Web Design</h2>
-            <p>I'am beginner in web design</p>
-            <a href="#">Learn More</a>
-          </div>
-          <div>
-            <i class="fa-light fa-crop"></i>
-            <h2>UI/UX Design</h2>
-            <p>I'am beginner in web design</p>
-            <a href="#">Learn More</a>
-          </div>
-          <div>
-            <i class="fa-brands fa-app-store"></i>
-            <h2>APP Development</h2>
-            <p>I'am beginner in web design</p>
-            <a href="#">Learn More</a>
-          </div>
+      <form action="#" class="Search-bar">
+        <input type="text" placeholder="Search..." />
+        <button type="submit"><i class="bx bx-search"></i>
+      </form>
+    </header>
 
-        </div>
+    <div class="background"></div>
+    <div class="container">
+      <div class="content">
+      <h2 class="logo"><i class='bx bxl-firebase'></i>
+        Code with Koyaja</h2>
+      
 
-      </div>
-    </div>
-    <!-- Portfolio -->
-    <div id="portfolio">
-      <div class="container">
-        <h1 class="sub-tittle">My Work</h1>
-        <div class="work-list">
-          <div class="work">
-            <img src="Images/work1.jpg">
-            <div class="layer">
-              <h3>Social Media App</h3>
-              <p>Go and have fun on facebook or Tiktok</p>
-              <a href="#"><i class="fa-light fa-link"></i></a>
-            </div>
-          </div>
-          <div class="work">
-            <img src="Images/work2.jpg">
-            <div class="layer">
-              <h3>Online Shopping App</h3>
-              <p>shop from us and enjoy free delivery</p>
-              <a href="#"><i class="fa-light fa-link"></i></a>
-            </div>
-          </div>
-          <div class="work">
-            <img src="Images/work3.jpg">
-            <div class="layer">
-              <h3>Music App</h3>
-              <p>Download the latest musis here</p>
-              <a href="#"><i class="fa-light fa-link"></i></a>
-            </div>
-          </div>
-          <a href="#" class="btn">See More</a>
-        </div>
-      </div>
-    </div>
+        <div class="text-sci">
+          <h2>Welcome! <br><span>To my new Website.</span></h2>
+        
 
-    <!-- Contact Info -->
-    <div id="contact">
-      <div class="container">
-        <div class="row">
-          <div class="contact-left">
-            <h1 class="sub-tittle">Contact Me</h1>
-            <p><i class="fa-sharp fa-solid fa-paper-plane"></i>Contact me on Email brightkoyaja@gmail.com</p>
-            <P><i class="fa-solid fa-phone"></i>contact me on this phone number 0553995087</P>
+          <p>I love learning & praticing coding <br>
+            because i want to become expert<br> in coding</p>
+
             <div class="social-icons">
-              <a href="mailto:brightkoyaja@gmail.com"></a><br>
-              <a href="htpps://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
-              <a href="htpps://facebook.com/"><i class="fa-brands fa-twitter"></i></i></a>
-              <a href="htpps://facebook.com/"><i class="fa-brands fa-instagram"></i></i></a>
-              <a href="htpps://facebook.com/"><i class="fa-brands fa-linkedin"></i></i></a>
-              <a href="htpps://facebook.com/"><i class="fa-brands fa-youtube"></i></i></a>
+              <a href="#"><i class='bx bxl-linkedin'></i></a> 
+              <a href="#"><i class='bx bxl-facebook'></i></a>
+              <a href="#"><i class='bx bxl-instagram'></i></a>
+              <a href="#"><i class='bx bxl-twitter'></i></a>
             </div>
-
-            <a href="Images/My Cv.jpg" download class="btn bnt2">Download Cv</a>
-          </div>
-          <div class="contact-right">
-            <form name="submit-to-google-sheet">
-              <input type="text" name="Name" placeholder="Your Name" required>
-              <input type="email" name="Email" placeholder="Your Email" required>
-              <textarea name="Massage"  rows="6" placeholder="Your massage"></textarea>
-              <button type="submit" class="btn bnt2">Submit</button>
-            </form>
-            <span id="msg"></span>
-          </div>
         </div>
       </div>
-      <div class="copyright">
-        <p>copyright © <i class="fa-sharp fa-solid fa-heart"></i>brightkoyaja</p>
 
-      </div>
+            
+
+      <div class="logreg-box">
+        <div class="form-box login">
+          <form action="#">
+            <h2>Sign In</h2>
+
+            <div class="input-box">
+              <span class="icon"><i
+              class='bx bxs-envelope'></i></span>
+              <input type="email" required>
+              <label>Email</label>
+            </div>
+          
+       
+
+         <div class="input-box">
+              <span class="icon"><i
+              class='bx bxs-lock-alt'></i></span>
+              <input type="password" required>
+              <label>password</label>
+            </div>
+         
+
+        <div class="remember-forgot">
+          <label><input type="checkbox">Remember me</label>
+          <a href="#">Forget password?</a>
+        </div>
+
+        <button type="submit"
+        class="btn">Sign In</button>
+
+        <div class="login-register">
+          <P>Don't have an account?<a href="#"
+          class="register-link">sign up</a></P>
+        </div>
+      </form>
     </div>
 
 
+    <div class="form-box register">
+      <form action="#">
+        <h2>Sign up</h2>
 
+        <div class="input-box">
+          <span class="icon"><i
+          class='bx bxs-user'></i></span>
+          <input type="text" required>
+          <label>Name</label>
+        </div>
 
-
-
-
-    <script>
-      var tablinks = document.getElementsByClassName("tab-links");
-      var tabcontents = document.getElementsByClassName("tab-contents");
-
-      function opentab(tabname) {
-        for (tablink of tablinks) {
-          tablink.classList.remove("active-link");
-        }
-
-        for (tabcontent of tabcontents) {
-          tabcontent.classList.remove("active-tab");
-        }
-        event.currentTarget.classList.add("active-link");
-        document.getElementById(tabname).classList.add("active-tab");
-      }
-    </script>
-
-    <script>
-      var sidemeun = document.getElementById("sidemenu");
-
-      function openmenu(){
-        sidemenu.style.right = "0";
-      }
-      function closemenu(){
-        sidemenu.style.right = "-200px";
-      }
-   </script>
-   <script>
-    const scriptURL = 'https://script.google.com/macros/s/AKfycbys3bnze4kdAKphcjccC4OK6-CPXzdFtathIhrYdv5aA8_JEzZyWyxTB5ZQ3OErz-90/exec'
-    const form = document.forms['submit-to-google-sheet']
-    const msg = document.getElementById("msg")
+    <div class="input-box">
+      <span class="icon"><i
+      class='bx bxs-envelope'></i></span>
+      <input type="email" required>
+      <label>Email</label>
+    </div>
   
-    form.addEventListener('submit', e => {
-      e.preventDefault()
-      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-        .then(response => {
-          msg.innerHTML = "Message send successfully"
-          setTimeout(function(){
-            msg.innerHTML = ""
-          },5000)
-          form.reset()
-        })
-        .catch(error => console.error('Error!', error.message))
-    })
-  </script>
-    
+
+
+ <div class="input-box">
+      <span class="icon"><i
+      class='bx bxs-lock-alt'></i></span>
+      <input type="password" required>
+      <label>password</label>
+    </div>
+ 
+
+<div class="remember-forgot">
+  <label><input type="checkbox">I agree to the terms & conditions</label>
+</div>
+
+<button type="submit"
+class="btn">Sign up</button>
+
+<div class="login-register">
+  <P>Already have an account?<a href="#"
+  class="login-link">sign in</a></P>
+</div>
+
+</form>
+</div>
+
+</div>
+</div>  
+    <script src="script.js"></script>
   </body>
 </html>
